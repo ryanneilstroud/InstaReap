@@ -4,8 +4,8 @@ import CustomAlert from "./CustomAlert";
 import { isInvalid } from "./Validation";
 
 const ActionSheet = ({ isEditing, title, body, modalVisible, onSubmit }) => {
-    const [bodyValue, onChangeBody] = React.useState(body);
-    const [titleValue, onChangeTitle] = React.useState(title);
+    const [bodyValue, onChangeBody] = React.useState(body ?? "");
+    const [titleValue, onChangeTitle] = React.useState(title ?? "");
 
     const fieldValidation = (newTitle, newBody) => {
       if (isInvalid(newTitle) || isInvalid(newBody)) {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Button, TouchableOpacity, ActivityIndicator, StyleSheet, FlatList, Text, View, StatusBar } from "react-native";
 import FloatingButton from "./FloatingButton";
 import ActionSheet from "./ActionSheet";
-import { BAD_INDEX, isCurrentUser } from "./Validation";
+import { BAD_INDEX, USER_ID, isCurrentUser } from "./Validation";
 
 
 const Cell = ({ title, body }) => {
@@ -44,7 +44,6 @@ const PostsListsScreen = ({ navigation }) => {
   };
 
   const clickHandler = (item, index) => {
-    console.log("testing item body = " + item.body);
     selectedIndex = index;
     titleText = item.title;
     bodyText = item.body;

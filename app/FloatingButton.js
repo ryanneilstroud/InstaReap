@@ -30,7 +30,9 @@ const FloatingButton = ({ callback }) => {
             style={styles.floatingButtonStyle}
           />
         </TouchableOpacity>
-        <ActionSheet 
+        <ActionSheet
+          title={null}
+          body={null}
           onSubmit={updateText} 
           modalVisible={modalVisible}
           isEditing={false}></ActionSheet>
