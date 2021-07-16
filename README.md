@@ -4,7 +4,7 @@ Project utilizing React Native to demonstrate cross platform support.
 
 ## Prerequisites
 
-Please ensure your have React Native CLI, node.js, and java installed.
+Please ensure you have React Native CLI, node.js, and java installed.
 
 ### Installing
 
