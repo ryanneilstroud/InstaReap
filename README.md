@@ -25,5 +25,9 @@ You can also find Android emulator support through Android Studio Preview.
 
 ## Author Note
 
+Please find both apk and ipa at the root of this repository.
+
+## Author Note
+
 As someone just picking up React Native there are lots of things to be ironed out and improved up, but I hope this is a good demonstration of
 what is possible using React Native.
