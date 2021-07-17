@@ -23,9 +23,9 @@ You can also find Android emulator support through Android Studio Preview.
 
     $ npm test
 
-## Author Note
+## APK & IPA
 
-Please find both apk and ipa at the root of this repository.
+Please find apk in the root of this repo. I am unable to export an ipa becasue my account is not enrolled in the paid Apple Developer program.
 
 ## Author Note
 
